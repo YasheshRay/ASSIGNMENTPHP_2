@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <h1>PHP ASSIGNMENT-2</h1>
+</header>
+<div class="container">
+  <div class="row">
+    <div class="container">
+      <!-- Register Form -->
+      <h2>Register</h2>
+      <form action="register.php" method="post">
+        <div class="form-group">
+          <label for="registerName">First Name</label>
+          <input type="text" class="form" id="fname" name="fname" required>
+        </div>
+        <div class="form-group">
+          <label for="registerName">Last Name</label>
+          <input type="text" class="form" id="lname" name="lname" required>
+        </div>                                    
+        <div class="form-group">
+          <label for="Email">Email address</label>
+          <input type="email" class="form" id="Email" name="Email" required>
+        </div>
+        <div class="form-group">
+          <label for="Password">Password</label>
+          <input type="password" class="form" id="Password" name="Password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+        <a href="index.html">Login here!</a>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<footer>
+  <p>&copy; 2023PHPAUTHENTICATIONS. All rights reserved.</p>
+</footer>
+</body>
+</html>
