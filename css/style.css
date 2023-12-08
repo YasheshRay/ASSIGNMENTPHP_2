@@ -1,5 +1,6 @@
 /* Style.css */
 
+/* Body Styles */
 body {
     background-image: url('../img/background-image.jpg');
     background-size: cover;
@@ -10,9 +11,10 @@ body {
     min-height: 100vh; /* Ensure body covers the full height of the viewport */
     display: flex;
     flex-direction: column;
-  }
-  
-  .container {
+}
+
+/* Container Styles */
+.container {
     flex: 1; /* Make the container grow to fill available space */
     max-width: 400px;
     margin: auto;
@@ -21,30 +23,32 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for a better look */
-  }
-  
-  h2 {
+}
+
+/* Header Styles */
+h2 {
     text-align: center;
     color: #333;
-  }
-  
-  form {
+}
+
+/* Form Styles */
+form {
     margin-top: 20px;
-  }
-  
-  form label {
+}
+
+form label {
     display: block;
     margin-bottom: 8px;
-  }
-  
-  form input {
+}
+
+form input {
     width: 100%;
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
-  }
-  
-  form button {
+}
+
+form button {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -52,32 +56,33 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  form a {
+}
+
+form a {
     display: block;
     margin-top: 10px;
     text-align: center;
     color: #333;
     text-decoration: none;
-  }
-  
-  form a:hover {
+}
+
+form a:hover {
     text-decoration: underline;
-  }
-  
-  header {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-  }
-  
-  footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-      width: 100%;
-  }
-  
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
